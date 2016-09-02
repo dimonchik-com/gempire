@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timeline JS Example</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS example">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <style>
+      html, body {
+       height:100%;
+       padding: 0px;
+       margin: 0px;
+      }
+    </style>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.knightlab.com/libs/timeline/latest/css/timeline.css">
+    <!-- <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline.js"></script> -->
+
+    <link rel="stylesheet" href="http://localhost/12345/timeline/assets/css/styles.css">
+
+    <link href="css/timeline.css?2.24" rel="stylesheet" class="lazyload" charset="utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" class="lazyload" charset="utf-8"></script>
+    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bevan%7CPontano+Sans&amp;subset=latin,latin" media="all">
+    <link href="css/themes/font/Bevan-PotanoSans.css?2.24" rel="stylesheet" class="lazyload" charset="utf-8">
+
+    <script src="js/timeline-min.js?2.24" class="lazyload" charset="utf-8"></script>
+    <script src="js/locale/ru.js?2.24" class="lazyload" charset="utf-8"></script>
+    <script type="text/javascript">
+		$( document ).ready(function() {
+		    var height=$(window).height();
+		    $("#timeline").height(height);
+		});
+    </script>
+  </head>
+
+  <body class="dimonchik">
+
+	  <div id="timeline"  style="width: 100%;">
+	      <div id="storyjs-timeline" style="position: relative;"></div>
+	  </div>
+
+	  <script type="text/javascript">
+	  		VMM.debug = false;
+
+	  		var dimonchik=0;
+
+		    load_history("http://localhost/12345/1.json", '100%', "timeline_two", 1, 0, "storyjs-timeline");
+
+			function load_history(file_url, width_, timeline_two, start_at_slide, start_zoom_adjust, storyjs_timeline_two) {
+
+					$.getJSON(file_url, function(data) {
+							var timeline_config_two = {
+								width:              width_,
+								source:             data,
+								embed_id:           timeline_two,               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+								start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
+								start_at_slide:     start_at_slide,                            //OPTIONAL START AT SPECIFIC SLIDE
+								start_zoom_adjust:  start_zoom_adjust,                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+								hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+								font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+								debug:              false,                           //OPTIONAL DEBUG TO CONSOLE
+								lang:               'ru',                           //OPTIONAL LANGUAGE
+								maptype:            'watercolor'
+							}
+
+							var styletoryjs_embedjs_two = new VMM.Timeline(storyjs_timeline_two);
+							styletoryjs_embedjs_two.init(timeline_config_two);  
+					});
+			}
+	  </script>
+
+  </body>
+</html>

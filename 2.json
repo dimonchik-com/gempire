@@ -1,0 +1,373 @@
+
+{
+    "timeline":
+    {
+        "headline":"Sh*t People Say",
+        "type":"default",
+		"text":"People say stuff",
+		"startDate":"1939,09,01",
+        "date": [
+{
+                "startDate":"1939,09,01",
+                "endDate":"1939,09,01",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,02",
+                "endDate":"1939,09,02",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,03",
+                "endDate":"1939,09,03",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,04",
+                "endDate":"1939,09,04",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,05",
+                "endDate":"1939,09,05",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,06",
+                "endDate":"1939,09,06",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,07",
+                "endDate":"1939,09,07",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,08",
+                "endDate":"1939,09,08",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,09",
+                "endDate":"1939,09,09",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,10",
+                "endDate":"1939,09,10",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,11",
+                "endDate":"1939,09,11",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,12",
+                "endDate":"1939,09,12",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,13",
+                "endDate":"1939,09,13",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,14",
+                "endDate":"1939,09,14",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,15",
+                "endDate":"1939,09,15",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,16",
+                "endDate":"1939,09,16",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,17",
+                "endDate":"1939,09,17",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,18",
+                "endDate":"1939,09,18",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,19",
+                "endDate":"1939,09,19",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,20",
+                "endDate":"1939,09,20",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,21",
+                "endDate":"1939,09,21",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,22",
+                "endDate":"1939,09,22",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,23",
+                "endDate":"1939,09,23",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,24",
+                "endDate":"1939,09,24",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,25",
+                "endDate":"1939,09,25",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,26",
+                "endDate":"1939,09,26",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,27",
+                "endDate":"1939,09,27",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,28",
+                "endDate":"1939,09,28",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,29",
+                "endDate":"1939,09,29",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            },{
+                "startDate":"1939,09,30",
+                "endDate":"1939,09,30",
+                "headline":"Vine",
+                "text":"<p>Vine Test</p>",
+                "asset":
+                {
+                    "media":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "thumbnail":"http://localhost/12345/timeline/assets/img/shots/sidebar_s3.jpg",
+                    "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}

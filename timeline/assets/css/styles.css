@@ -1,0 +1,368 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background:url('../img/page_bg.jpg') repeat #191919;
+}
+
+
+body{
+	min-height: 700px;
+    padding: 0 0 50px;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	overflow:hidden;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	Styling the timeline
+-----------------------------*/
+
+
+.dimonchik{
+	background:none !important;
+}
+
+.slider .slider-container-mask .slider-container{
+	background:none !important;
+}
+
+.dimonchik div.vco-navigation{
+    background: url('../img/timeline_bg.jpg') repeat !important;
+    border-top:none !important;
+}
+
+/* Creating the 3D effect for the timeline navigation */
+
+.dimonchik div.vco-navigation:before{
+	position:absolute !important;
+	content:'' !important;
+	height:40px !important;
+	width:100% !important;
+	left:0 !important;
+	top:-40px !important;
+	background: url('../img/timeline_bg.jpg') repeat !important;
+}
+
+.dimonchik div.vco-navigation:after{
+	position:absolute !important;
+	content:'' !important;
+	height:10px !important;
+	width:100% !important;
+	left:0 !important;
+	top:-40px !important;
+	background:repeat-x !important;
+	
+	background-image: linear-gradient(bottom, #434446 0%, #363839 100%) !important;
+	background-image: -o-linear-gradient(bottom, #434446 0%, #363839 100%) !important;
+	background-image: -moz-linear-gradient(bottom, #434446 0%, #363839 100%) !important;
+	background-image: -webkit-linear-gradient(bottom, #434446 0%, #363839 100%) !important;
+	background-image: -ms-linear-gradient(bottom, #434446 0%, #363839 100%) !important;
+}
+
+
+/* Adding a darker background to the timeline navigation */
+
+.dimonchik div.timenav-background{
+	background-color:#222 !important;
+ 	background-color:rgba(0,0,0,0.4) !important;
+ 	
+}
+
+.dimonchik .vco-navigation .timenav-background .timenav-interval-background{
+	background:none !important;
+}
+
+.dimonchik .top-highlight{
+	background-color:transparent !important;
+}
+
+/* The zoom-in / zoom-out toolbar */
+
+.dimonchik .vco-toolbar{
+	border:none !important;
+	background-color: #202222 !important;
+}
+
+.dimonchik .vco-toolbar div{
+	border:none !important;
+}
+
+/* Styling the timeline numbers on the bottom */
+
+.dimonchik .vco-navigation .timenav .time .time-interval-minor .minor{
+	margin-left:-1px !important;
+}
+
+.dimonchik .vco-navigation .timenav .time .time-interval div{
+	color: #CCCCCC !important;
+}
+
+/* The vertical lines */
+
+.dimonchik .vco-navigation .timenav .content .marker .line {
+	background: #242828 !important;
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+.dimonchik .vco-navigation .timenav .content .marker .dot {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	border-radius: 3px 3px 3px 3px !important;
+}
+
+/* The previous / next arrows & labels */
+
+.slider .nav-previous .icon {
+	background: url("timeline.png") no-repeat scroll 0 -293px transparent !important;
+}
+
+.slider .nav-previous,.slider .nav-next{
+	font-family:'Segoe UI',sans-serif !important;
+}
+
+.slider .nav-next .icon {
+	background: url("timeline.png") no-repeat scroll 72px -221px transparent !important;
+	width: 70px !important;
+}
+
+.slider .nav-next:hover .icon{
+	position:relative !important;
+	right:-5px !important;
+}
+
+.slider .nav-previous:hover, .slider .nav-next:hover {
+    color: #666 !important;
+    cursor: pointer !important;
+}
+
+.dimonchik .thumbnail {
+	border: medium none !important;
+}
+
+/* Color of the headings */
+
+.dimonchik h1, .dimonchik h2, .dimonchik h3, .dimonchik h4, .dimonchik h5, .dimonchik h6{
+	color:#ddd !important;
+}
+
+/* The loading screen */
+
+.dimonchik .feedback {
+	background-color: #222222 !important;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset !important;
+	border:none !important;
+}
+
+.dimonchik .feedback div{
+	color: #AAAAAA !important;
+	font-size: 14px !important;
+	font-weight: normal !important;
+}
+
+
+/*----------------------------
+	The Slides
+-----------------------------*/
+
+
+.dimonchik .slider-item h2,
+.dimonchik .slider-item h3{
+	font-family:'Antic Slab','Segoe UI',sans-serif !important;
+}
+
+.dimonchik .slider-item h2{
+	color:#fff !important;
+}
+
+.dimonchik .slider-item p{
+	font-family:'Segoe UI',sans-serif !important;
+}
+
+
+.dimonchik .slider-item img,
+.dimonchik .slider-item iframe{
+	border:none !important;
+}
+
+/* Customizing the first slide - the cover */
+
+.dimonchik .slider-item:nth-child(1) h2{
+	font:normal 70px/1 'Antic Slab','Segoe UI',sans-serif !important;
+	background:rgba(0,0,0,0.3) !important;
+	white-space: nowrap !important;
+	padding:10px 5px 5px 20px !important;
+	position:relative !important;
+	right:-60px !important;
+	z-index:10 !important;
+}
+
+.dimonchik .slider-item:nth-child(1) p i{
+	font:normal normal 40px 'Dancing Script','Segoe UI',sans-serif !important;
+	background:rgba(0,0,0,0.3) !important;
+	white-space: nowrap !important;
+	padding:5px 20px !important;
+	position:relative !important;
+	right:-60px !important;
+	z-index:10 !important;
+}
+
+.dimonchik .slider-item:nth-child(1) p .c1{
+	color:#1bdff0 !important;
+}
+
+.dimonchik .slider-item:nth-child(1) p .c2{
+	color:#c92fe6 !important;
+}
+
+.dimonchik .slider-item:nth-child(1) .media-container {
+	left: -30px !important;
+	position: relative !important;
+	z-index: 1 !important;
+}
+
+.dimonchik .slider-item:nth-child(1) .credit{
+	text-align: center !important;
+}
+
+
+/*----------------------------
+	Back to Tzine header
+-----------------------------*/
+
+
+header{
+	width:267px !important;
+	height:48px !important;
+	position:fixed !important;
+	top:0 !important;
+	left:50% !important;
+	margin-left: -440px !important;
+	z-index: 1000 !important;
+	box-shadow: 0 0 2px #000000 !important;
+}
+
+header a{
+	border:none !important;
+	text-indent:-9999px !important;
+	overflow:hidden !important;
+	position:absolute !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	height:100% !important;
+	background:url('../img/download_on_tutorialzine.jpg') no-repeat !important;
+}
+
+#storyjs-timeline{background: url('../img/page_bg.jpg') repeat #191919}
+.vco-navigation{background: url('../img/timeline_bg.jpg') repeat; border-top: none;}
+.vco-timeline .vco-navigation .timenav-background{background: none;}
+
+.dimonchik .vco-navigation .timenav .content .marker .flag{
+    position: absolute;
+    top: 15px;
+    left: 3px;
+    padding: 0px;
+    display: block;
+    z-index: 23;
+    width: 153px;
+    height: 56px;
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 153px;
+    height: 60px;
+}
+
+.dimonchik .vco-navigation .timenav .content .marker .flag:hover {
+    cursor: pointer !important;
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -110px !important;
+    width: 153px !important;
+    height: 60px !important;
+}
+
+.dimonchik .vco-navigation .timenav .content .marker.active .flag {
+    z-index: 200 !important;
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -110px !important;
+    width: 153px !important;
+    height: 60px !important;
+}
+
+.dimonchik .vco-navigation .vco-toolbar .back-home .icon {
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -1303px !important;
+    width: 16px !important;
+    height: 12px !important;
+}
+
+.dimonchik .vco-navigation .vco-toolbar .zoom-in .icon {
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -1507px !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.dimonchik .vco-navigation .vco-toolbar .zoom-out .icon {
+    background-image: url(timeline.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -1647px !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.dimonchik .vco-timeline .vco-navigation .timenav .content .marker .dot{
+	left: 0px !important;
+	top: 150px !important;
+}
+
+.dimonchik #storyjs-timeline_two{background: url('../img/page_bg.jpg') repeat #191919;}
+.dimonchik .timenav-interval-background{background: none !important;}
+.dimonchik .vco-timeline .vco-navigation .timenav .time .time-interval-major div{color: #CCCCCC;}
+.dimonchik .vco-navigation .timenav .content .marker .flag .flag-content h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    line-height: 20px !important;
+    font-size: 11px !important;
+    line-height: 11px !important;
+    color: #999999 !important;
+    margin-bottom: 2px !important;
+    padding-left: 30px !important;
+    position: relative !important;
+    top: -1px !important;
+}
+.dimonchik .vco-navigation .timenav .content .marker.active .flag .flag-content h3 {
+    color: #0088cc !important;
+}
+.root_p1{width: 100%; height: 100%;}
